@@ -10,15 +10,42 @@ h1 {
     font-family: 'Comfortaa', sans-serif;
     font-weight: 300;
     color: #545454;
+    text-decoration: none;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #545454;
+    color: #000000;
+    text-decoration: none;
 }
 
 #logo {
     float: center;
     font-size: 250%;
+    text-align: center;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
