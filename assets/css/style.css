@@ -54,6 +54,37 @@ body {
     width: 100%;
 }
 
-#keto-question {
+#keto-question1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.keto-ttiles {
+    width: 100%;
+    
+}
+
+.keto-diettypes {
+    width: 100%;
+}
+
+#keto-btypes {
     text-align: center;
 }
+
+#ketodietbenefits {
+    text-align: center;
+}
+
+.keto-dbenefits{
+    width: 100%;
+}
+
+.food-eat {
+    width: 100%;
+}
+
+.food-avoid {
+    width: 100%;
+}
+
