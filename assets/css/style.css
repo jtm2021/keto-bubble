@@ -49,3 +49,11 @@ body {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+.keto-fplate {
+    width: 100%;
+}
+
+#keto-question {
+    text-align: center;
+}
