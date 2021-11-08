@@ -3,53 +3,36 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 h1 {
     font-family: 'Comfortaa', sans-serif;
-    font-weight: 300;
+    font-size: xxx-large;
     color: #545454;
     text-decoration: none;
+    text-align: center;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color: #000000;
+    color: #000000;    
+}
+
+/* navigation bar */
+
+.navbar {
+    background: aquamarine;
+    position: relative;
+    width: 100%;
+}
+
+nav ul li {
     text-decoration: none;
 }
 
-#logo {
-    float: center;
-    font-size: 250%;
-    text-align: center;
+#keto-image {
+    width: 100%;
 }
-
-/* navigation links */
-
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
 .keto-fplate {
     width: 100%;
 }
@@ -72,6 +55,11 @@ body {
     text-align: center;
 }
 
+#keto-btypes p {
+    text-align: justify;
+    margin: 10px 10px;
+}
+
 #ketodietbenefits {
     text-align: center;
 }
@@ -80,11 +68,42 @@ body {
     width: 100%;
 }
 
+#benefitsketo {
+    text-align: center;
+}
+
+#benefitsketo p {
+    text-align: justify;
+    margin: 10px 10px;    
+}
+
+#foodguide {
+    text-align: center;
+}
+
 .food-eat {
     width: 100%;
 }
+
+#foodtoeat {
+    text-align: center;
+}
+
+#foodtoeat li {
+    text-align: left;
+    margin: 10px 10px;    
+}
+
 
 .food-avoid {
     width: 100%;
 }
 
+#foodtoavoid {
+    text-align: center;
+}
+
+#foodtoavoid li {
+    text-align: left;
+    margin: 10px 10px;    
+}
