@@ -20,14 +20,35 @@ body {
 
 /* navigation bar */
 
-.navbar {
-    background: aquamarine;
-    position: relative;
+.main-nav {
+    background: aquamarine;    
     width: 100%;
+    position: fixed;
+    padding: 10px 10px;
 }
 
-nav ul li {
+#navlinks {
+    letter-spacing: 3px;
+    font-size: 120%;
+}
+
+#navlinks li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 38px;
+    float: right;
+}
+
+#navlinks a {
     text-decoration: none;
+}
+
+#navlinks a:hover {
+    border-bottom: 3px solid black;
+}
+
+.main-name {
+    margin-top: 50px;
 }
 
 #keto-image {
@@ -116,3 +137,12 @@ nav ul li {
     text-align: left;
     margin: 10px 10px;    
 }
+
+?
+/* footer */
+
+.socmedia > li {
+    display: inline;
+    text-align: center;
+}
+
