@@ -43,8 +43,16 @@ nav ul li {
 }
 
 .keto-ttiles {
-    width: 100%;
-    
+    width: 100%;    
+}
+
+#keto-question2 {
+    text-align: center;
+}
+
+#keto-question2 p {
+    text-align: justify;
+    margin: 10px 10px;
 }
 
 .keto-diettypes {
@@ -79,6 +87,7 @@ nav ul li {
 
 #foodguide {
     text-align: center;
+    font-size: 32px;
 }
 
 .food-eat {
