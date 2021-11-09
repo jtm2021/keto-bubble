@@ -21,10 +21,11 @@ body {
 /* navigation bar */
 
 .main-nav {
-    background: aquamarine;    
+    background: linear-gradient(to left, aqua, aquamarine);    
     width: 100%;
     position: fixed;
     padding: 10px 10px;
+    z-index: 1;
 }
 
 #navlinks {
@@ -51,11 +52,40 @@ body {
     margin-top: 50px;
 }
 
-#keto-image {
+/* main keto image and cover text */
+
+.content-wrapper {
     width: 100%;
 }
+
+.content-wrapper img{
+    width: 100%;
+    position: relative;
+}
+
+.text-wrapper h2 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-size: 200%;
+    border-color: white;
+    
+}         
+
+.text-wrapper span {
+    background-color: rgba(127, 255, 212, 0.8); 
+    text-shadow: 2px 2px 10px white;      
+}         
+
+#keto-image {
+    width: 100%;
+    position: relative;
+}
+
 .keto-fplate {
     width: 100%;
+    opacity: 0.8;
 }
 
 #keto-question1 {
@@ -140,9 +170,4 @@ body {
 
 ?
 /* footer */
-
-.socmedia > li {
-    display: inline;
-    text-align: center;
-}
 
