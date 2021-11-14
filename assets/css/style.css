@@ -204,25 +204,24 @@ hr {
 }
 
 /* Contact page*/
+.contact-wrapper {
+    position: relative;
+}
 
 .contact-wrapper img{
     width: 100%;
-    position: absolute;
 }
 
 .contact-image {
     width: 100%;
 }
 
-
-.context-wrapper h2{
-    width: 100%;
-    position: relative;
+.context-wrapper {
     text-align: center;
-    font-size: 170%;
-    border-color: white;
-    top: 120px;
-    margin-bottom: 200px;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    
 }
 
 .context-wrapper span {
@@ -235,7 +234,8 @@ hr {
 
 .form-section {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
+    position: relative;
 }
 
 .actual-form {
@@ -244,7 +244,7 @@ hr {
 }
 
 .input-field {
-    width: 350px;
+    width: 95%;
     height: 40px;
     margin-top: 20px;
     padding-left: 10px;
@@ -265,7 +265,7 @@ hr {
     background-color: aquamarine;
     font-size: 13px;
     border: none;
-    margin-left: 130px;
+    margin-left: 90px;
 }
 
 
