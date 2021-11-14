@@ -205,27 +205,24 @@ hr {
 
 /* Contact page*/
 
-.contact-wrapper {
-    width: 100%;
-}
-
 .contact-wrapper img{
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .contact-image {
-    position: relative;
+    width: 100%;
 }
 
 
-.context-wrapper {
+.context-wrapper h2{
     width: 100%;
-    position: absolute;
+    position: relative;
     text-align: center;
-    font-size: 130%;
+    font-size: 170%;
     border-color: white;
-    top: 0px;
+    top: 120px;
+    margin-bottom: 200px;
 }
 
 .context-wrapper span {
@@ -243,11 +240,11 @@ hr {
 
 .actual-form {
     margin: 50px;
-    text-align: left;    
+    text-align: left;  
 }
 
 .input-field {
-    width: 260px;
+    width: 350px;
     height: 40px;
     margin-top: 20px;
     padding-left: 10px;
@@ -256,7 +253,8 @@ hr {
 }
 
 .input-msg {
-    height: 200px;
+    min-height: 200px;
+
 }
 
 .bttn {
@@ -267,7 +265,7 @@ hr {
     background-color: aquamarine;
     font-size: 13px;
     border: none;
-    margin-left: 85px;
+    margin-left: 130px;
 }
 
 
