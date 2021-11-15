@@ -551,19 +551,72 @@ hr {
         float: left;
         margin: 30px;
          }
-     #benefitsketo {
+
+    #benefitsketo {
         padding: 80px;
          }
-     #benefitsketo h2 {
+    #benefitsketo h2 {
        margin-bottom: 30px;
        margin-top: 120px;
          }
-     #benefitsketo p {
+    #benefitsketo p {
         font-size: 25px;
        line-height: 50px;
          }
 
-     .find {
+    #main-foodguide {
+        margin-top: 100px;
+    }
+
+    #foodguide {
+        font-size: 70px;
+    }
+
+    .foodguide1 {
+        display: block;        
+    }
+
+    #foodguide-img1 img{
+        width: 600px;
+        height: 500px;
+        border-radius: 15px;
+        margin-left: 140px;
+    }
+
+    #foodtoeat h3 {
+        text-align: left;
+        font-size: 45px;        
+    }
+
+    #foodtoeat li {
+        font-size: 35px; 
+        line-height: 60px;     
+    }
+
+    .foodguide2 {
+        display: block;        
+    }
+
+    #foodguide-img2 img{
+        width: 600px;
+        height: 500px;
+        border-radius: 15px;
+        margin-right: 180px;
+    }
+
+    #foodtoavoid {
+        margin-top: 70px;
+    }
+    #foodtoavoid h3 {
+        text-align: right;
+        font-size: 45px;        
+    }
+    #foodtoavoid li {
+        font-size: 35px; 
+        line-height: 60px;     
+    }
+
+    .find {
          font-size: 25px;         
     }
 
