@@ -293,6 +293,146 @@ hr {
 /* responsive design for tablets */
 
 @media only screen and (min-width: 768px) {
+    .keto-image {
+        position: relative;
+    }
+
+    .text-wrapper h2 {
+        font-size: 65px;
+        position: absolute;
+        top: 32%;
+    }
+
+    #keto-question1 {
+        font-size: 40px;
+    }    
+    .content-wrapper {
+        width: 95%;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+
+    .keto-ttiles {
+        width: 95%;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+
+    #keto-question2{
+        margin: 20px;
+    }
+
+    #keto-question2 h2 {
+        font-size: 30px;
+    }
+
+    #keto-question2 p {
+        font-size: 20px;
+        line-height: 30px;        
+    }
+
+    .keto-diettypes {
+        width: 95%;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+
+    #keto-btypes {
+        margin: 20px;
+    }
+
+    #keto-btypes h2 {
+        font-size: 30px;
+    }
+
+    #keto-btypes p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+
+    .keto-dbenefits {
+        width: 95%;
+        padding-left: 18px;
+        padding-top: 0px;
+    }
+
+    #benefitsketo {
+        margin: 20px;
+    }
+
+    #benefitsketo h2 {
+        font-size: 30px;
+    }
+
+    #benefitsketo p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #foodguide {
+        font-size: 40px;
+    }
+
+    #foodguide-img1 img {
+        width: 50%;
+        float: left;
+        margin: 20px;
+        
+    }
+
+    #foodtoeat h3 {
+        margin-top: 10px;
+        padding: 30px;
+        font-size: 25px; 
+        margin-right: 160px;                
+    }
+
+    #foodtoeat li {
+        font-size: 20px;
+        list-style-type: none;        
+    }
+
+    #foodguide-img2 img {
+        width: 50%;
+        float: right;
+        margin: 20px;
+    }
+
+    #foodtoavoid h3 {
+        margin-top: 30px;
+        padding: 30px;
+        font-size: 25px;  
+        margin-left: 132px;
+    }
+
+    #foodtoavoid li {
+        font-size: 20px;
+        list-style-type: none;
+        text-align: right; 
+    }
+
+    .about-veg img {
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+    }
+    .whole-keto-info h2 {
+        font-size: 35px;
+        margin-bottom: 10px;        
+    }
+    .whole-keto-info {        
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-info {
+        padding: 30px;
+        font-size: 20px;                
+    }
+    .about-info p {
+        line-height: 30px;
+    }            
+    
     .contact-wrapper {
         width: 95%;
         padding-left: 18px;
@@ -314,33 +454,11 @@ hr {
 
     .input-msg {
         width: 550px; 
-    }
+    }    
     
-    .about-veg img {
-        width: 100%;
-        height: 80px;
-        object-fit: cover;
+    .bttn {
+        font-size: 20px;
     }
-
-    .whole-keto-info h2 {
-        font-size: 35px;
-        margin-bottom: 10px;        
-    }
-
-    .whole-keto-info {        
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .about-info {
-        padding: 30px;
-        font-size: 20px;                
-    }
-
-    .about-info p {
-        line-height: 30px;
-    }
-            
  }
 
 
