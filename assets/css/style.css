@@ -179,6 +179,9 @@ hr {
     padding-top: 10px;   
 }
 
+.mainfooter {
+    background: linear-gradient(to top, aqua , white 75%);
+}
 .footer {
     text-align: center;
     padding-top: 5px;
@@ -229,6 +232,10 @@ hr {
     position: relative;
 }         
 
+.context-wrapper h2 {
+    font-size: 180%;
+}
+
 /* Contact Form */
 
 .form-section {
@@ -263,8 +270,7 @@ hr {
     padding: 10px;
     background-color: aquamarine;
     font-size: 13px;
-    border: none;
-    margin-left: 90px;
+    border: none;    
 }
 
 /* About us page */
@@ -283,6 +289,59 @@ hr {
     text-align:justify;
     padding: 10px;
 }
+
+/* responsive design for tablets */
+
+@media only screen and (min-width: 768px) {
+    .contact-wrapper {
+        width: 95%;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+    
+    .context-wrapper {
+        font-size: 180%;
+    }
+
+    .actual-form {
+        padding-left: 40px;
+    }
+
+    .input-field {
+        width: 550px; 
+        font-size: 20px;   
+    }
+
+    .input-msg {
+        width: 550px; 
+    }
+    
+    .about-veg img {
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .whole-keto-info h2 {
+        font-size: 35px;
+        margin-bottom: 10px;        
+    }
+
+    .whole-keto-info {        
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-info {
+        padding: 30px;
+        font-size: 20px;                
+    }
+
+    .about-info p {
+        line-height: 30px;
+    }
+            
+ }
 
 
 
