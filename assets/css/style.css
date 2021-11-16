@@ -260,7 +260,15 @@ hr {
 
 .input-msg {
     min-height: 200px;
+}
 
+.input-msg {
+    padding-top: 10px;
+}
+.input-msg::placeholder {
+    height: 40vh;
+    font-family: Arial, sans-serif;
+    font-size: 15px;         
 }
 
 .bttn {
@@ -458,14 +466,23 @@ hr {
 
     .input-msg {
         width: 550px; 
-    }    
+    }
+    
+    .input-msg {
+        padding-top: 10px;
+    }
+    .input-msg::placeholder {
+        height: 40vh;
+        font-family: Arial, sans-serif;
+        font-size: 24px;         
+    }
     
     .bttn {
         font-size: 20px;
     }
  }
 
- /* responsive design for desktop */
+ /* responsive design for laptop */
 
  @media only screen and (min-width: 1000px) {
      .main-nav {
@@ -580,9 +597,9 @@ hr {
         width: 600px;
         height: 500px;
         border-radius: 15px;
-        margin-left: 140px;
+        margin-left: 140px;        
     }
-
+              
     #foodtoeat h3 {
         text-align: left;
         font-size: 45px;        
@@ -594,7 +611,8 @@ hr {
     }
 
     .foodguide2 {
-        display: block;        
+        display: block; 
+        margin-bottom: 90px;       
     }
 
     #foodguide-img2 img{
@@ -665,10 +683,246 @@ hr {
          margin-left: 250px;
      }
 
-     .bttn {
+    .input-msg {
+        padding-top: 10px;
+    }
+    .input-msg::placeholder {
+        height: 40vh;
+        font-family: Arial, sans-serif;
+        font-size: 24px;         
+    }
+
+    .bttn {
         margin-left: 250px;
         margin-bottom: 50px;
-     }
-     
-
+     }     
  }
+
+ /* responsive design for desktop */
+
+@media only screen and (min-width: 1600px) {
+    .main-nav {
+        height: 40px;         
+    }
+
+    #navlinks li {
+        font-size: 25px;
+        padding-top: 5px;
+    }
+
+    .main-name h1{
+       padding-top: 10px;
+       font-size: 80px;
+       padding-bottom: 10px;
+       text-align: center;            
+    }
+
+    #keto-image {
+        width: 100%;
+    }
+
+    #keto-image img {
+       width: 90%;
+       padding-left: 0px;
+       padding-right: 0px;
+       text-align: center;
+       margin-left: 90px;
+       height: 450px;
+       object-fit: cover;
+    }  
+
+    .text-wrapper h2 {
+        font-size: 55px;
+    }
+
+    .content-wrapper {
+        margin-bottom: 30px;
+    }
+
+    #keto-question1 {
+        font-size: 45px;
+    }
+
+    .keto-question1-img img {
+        width: 50%;
+        float: left;
+        margin: 30px;
+    }
+
+    #keto-question2 {
+        padding: 80px;
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+
+    #keto-question2 h2 {
+       margin-bottom: 30px;
+    }
+
+    #keto-question2 p {
+        font-size: 25px;
+       line-height: 50px;
+    }
+
+    #keto-types img {
+       width: 50%;
+       float: right;
+       margin: 30px;
+    }
+
+    #keto-btypes {
+       padding: 50px;
+       padding-top: 250px;
+    }
+
+    #keto-btypes h2 {
+      margin-bottom: 30px;
+      margin-top: 100px;
+    }
+
+    #keto-btypes p {
+       font-size: 25px;
+      line-height: 50px;
+    }
+    
+    #benefitsketo-img img {
+        width: 50%;
+        float: left;
+        margin: 30px;
+    }
+
+    #benefitsketo {
+        padding: 80px;
+        padding-top: 240px;
+    }
+
+    #benefitsketo h2 {
+        margin-bottom: 30px;
+        margin-top: 120px;
+    }
+
+    #benefitsketo p {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    #main-foodguide {
+        margin-top: 150px;
+    }
+
+    #foodguide {
+        font-size: 70px;
+    }
+
+    .foodguide1 {
+        display: block;
+        margin-left: 220px;        
+    }
+
+    #foodguide-img1 img{
+        width: 600px;
+        height: 500px;
+        border-radius: 15px;
+        margin-left: 140px;        
+    }
+                  
+    #foodtoeat h3 {
+        text-align: left;
+        font-size: 45px;        
+    }
+
+    #foodtoeat li {
+        font-size: 35px; 
+        line-height: 60px;     
+    }
+
+    .foodguide2 {
+        display: block; 
+        margin-bottom: 90px;
+        margin-right: 160px;       
+    }
+    #foodguide-img2 img{
+        width: 600px;
+        height: 500px;
+        border-radius: 15px;
+        margin-right: 180px;
+    }
+
+    #foodtoavoid {
+        margin-top: 70px;
+    }
+
+    #foodtoavoid h3 {
+        text-align: right;
+        font-size: 45px;        
+    }
+
+    #foodtoavoid li {
+        font-size: 35px; 
+        line-height: 60px;     
+    }
+
+    .find {
+         font-size: 25px;         
+    }
+           
+    .whole-keto-info {
+        margin: 20px;
+        margin-bottom: 90px;         
+    }
+
+    .footer i {
+        font-size: 40px;
+    }
+                   
+    .about-img {
+        width: 50vw;
+        float: left;
+    }
+
+    .about-info {         
+       padding-left: 800px;
+       font-size: 20px;       
+    }
+
+    .about-info p {
+        line-height: 50px;
+        font-size: 25px;
+        padding-left: 200px;
+        padding-right: 10px;
+    }        
+             
+    #contact-image img {
+       width: 90%;
+       padding-left: 0px;
+       padding-right: 0px;
+       text-align: center;
+       margin-left: 90px;
+       height: 450px;
+       object-fit: cover;
+    }   
+
+    .context-wrapper h2 {
+        font-size: 50px;
+    }
+    
+    .input-field {
+        display: block;
+        width: 40vw;        
+        margin-left: 450px;        
+    }
+
+    .input-msg {
+        padding-top: 10px;
+    }
+
+    .input-msg::placeholder {
+        height: 40vh;
+        font-size: 24px;              
+    }
+
+    .bttn {
+       margin-left:450px;
+       margin-bottom: 50px;
+    }     
+}
