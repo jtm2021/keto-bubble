@@ -90,9 +90,6 @@ The users of the website are provided with information about the Keto Bubble org
 - HTML - No errors were returned when passing through the official [**W3C validator**](https://validator.w3.org/#validate_by_input+with_options)
 - CSS - No errors were found when passing through the official [**(Jigsaw) validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-### Unfixed Bugs ###
-- No unfixed bugs
-
 <br>
 
 ## Deployment ##
@@ -101,7 +98,7 @@ The users of the website are provided with information about the Keto Bubble org
     - In the GitHub repository, navigate to the Settings tab.
     - From the source section drop-down menu, select the main Branch.
     - Once the main branch has been selected, the page provided a link the completed website. 
-The live link can be found here - ############
+The live link can be found here - https://jtm2021.github.io/keto-bubble/
 
 <br>
 
