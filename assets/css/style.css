@@ -69,8 +69,7 @@ body {
     text-align: center;
     top: 40%;
     font-size: 200%;
-    border-color: white;
-    
+    border-color: white;    
 }         
 
 .text-wrapper span {
@@ -154,7 +153,6 @@ body {
     margin: 10px 10px;    
 }
 
-
 .food-avoid {
     width: 100%;
 }
@@ -173,6 +171,7 @@ hr {
     width: 100%;
     height: 1px;
 }
+
 /* footer */
 .find {
     text-align: center;
@@ -387,8 +386,7 @@ hr {
         height: 300px;
         object-fit: cover;
         float: left;
-        margin: 20px;
-        
+        margin: 20px;        
     }
 
     #foodtoeat h3 {
@@ -412,7 +410,7 @@ hr {
     }
 
     #foodtoavoid h3 {
-        margin-top: 30px;
+        margin-top: 60px;
         padding: 30px;
         font-size: 25px;  
         margin-left: 132px;
@@ -485,27 +483,27 @@ hr {
  /* responsive design for laptop */
 
  @media only screen and (min-width: 1000px) {
-     .main-nav {
-         height: 40px;         
-     }
+    .main-nav {
+        height: 40px;         
+    }
 
-     #navlinks li {
-         font-size: 25px;
-         padding-top: 5px;
-     }
+    #navlinks li {
+        font-size: 25px;
+        padding-top: 5px;
+    }
 
-     .main-name h1{
+    .main-name h1{
         padding-top: 10px;
         font-size: 80px;
         padding-bottom: 10px;
         text-align: center;            
-     }
+    }
 
-     #keto-image {
-         width: 100%;
-     }
+    #keto-image {
+        width: 100%;
+    }
 
-     #keto-image img {
+    #keto-image img {
         width: 90%;
         padding-left: 0px;
         padding-right: 0px;
@@ -513,74 +511,81 @@ hr {
         margin-left: 90px;
         height: 450px;
         object-fit: cover;
-     }  
+    }  
 
-     .text-wrapper h2 {
-         font-size: 55px;
+    .text-wrapper h2 {
+        font-size: 55px;
+    }
+
+    .content-wrapper {
+        margin-bottom: 30px;
      }
 
-     .content-wrapper {
-         margin-bottom: 30px;
-     }
+    #keto-question1 {
+        font-size: 45px;
+    }
 
-     #keto-question1 {
-         font-size: 45px;
-     }
+    .keto-question1-img img {
+        width: 50%;
+        float: left;
+        margin: 30px;
+    }
 
-     .keto-question1-img img {
-         width: 50%;
-         float: left;
-         margin: 30px;
-     }
+    #keto-question2 {
+        padding: 80px;
+        padding-bottom: 0px;
+    }
 
-     #keto-question2 {
-         padding: 80px;
-         padding-bottom: 0px;
-     }
-
-     #keto-question2 h2 {
+    #keto-question2 h2 {
         margin-bottom: 30px;
     }
 
-     #keto-question2 p {
-         font-size: 25px;
+    #keto-question2 p {
+        font-size: 25px;
         line-height: 50px;
     }
-     #keto-types img {
+
+    #keto-types img {
         width: 50%;
         float: right;
         margin: 30px;
     }
-     #keto-btypes {
+
+    #keto-btypes {
         padding: 80px;
     }
-     #keto-btypes h2 {
-       margin-bottom: 30px;
-       margin-top: 100px;
+
+     
+    #keto-btypes h2 {
+        margin-bottom: 30px;
+        margin-top: 100px;
     }
-     #keto-btypes p {
+
+    #keto-btypes p {
         font-size: 25px;
-       line-height: 50px;
+        line-height: 50px;
     }
 
     #benefitsketo-img img {
         width: 50%;
         float: left;
         margin: 30px;
-         }
+    }
 
     #benefitsketo {
         padding: 80px;
-         }
+    }
+
     #benefitsketo h2 {
-       margin-bottom: 30px;
-       margin-top: 120px;
-         }
+        margin-bottom: 30px;
+        margin-top: 120px;
+    }
+
     #benefitsketo p {
         font-size: 25px;
-       line-height: 50px;
-         }
-
+        line-height: 50px;
+    }
+    
     #main-foodguide {
         margin-top: 100px;
     }
@@ -593,7 +598,7 @@ hr {
         display: block;        
     }
 
-    #foodguide-img1 img{
+    #foodguide-img1 img {
         width: 600px;
         height: 500px;
         border-radius: 15px;
@@ -625,46 +630,48 @@ hr {
     #foodtoavoid {
         margin-top: 70px;
     }
+
     #foodtoavoid h3 {
         text-align: right;
         font-size: 45px;        
     }
+
     #foodtoavoid li {
         font-size: 35px; 
         line-height: 60px;     
     }
-
+    
     .find {
-         font-size: 25px;         
+        font-size: 25px;         
     }
 
        
-     .whole-keto-info {
-         margin: 20px;
-         margin-bottom: 90px;         
-     }
+    .whole-keto-info {
+        margin: 20px;
+        margin-bottom: 90px;         
+    }
 
-     .footer i {
-         font-size: 40px;
-     }
+    .footer i {
+        font-size: 40px;
+    }
 
                
-     .about-img {
-         width: 50vw;
-         float: left;
-     }
+    .about-img {
+        width: 50vw;
+        float: left;
+    }
 
-     .about-info {         
+    .about-info {         
         padding-left: 800px;
         font-size: 20px;
-     }
+    }
 
-     .about-info p {
-         line-height: 35px;
-         font-size: 25px;
-     }        
+    .about-info p {
+        line-height: 35px;
+        font-size: 25px;
+    }        
          
-     #contact-image img {
+    #contact-image img {
         width: 90%;
         padding-left: 0px;
         padding-right: 0px;
@@ -672,20 +679,22 @@ hr {
         margin-left: 90px;
         height: 450px;
         object-fit: cover;
-     }             
-     .context-wrapper h2 {
-         font-size: 50px;
-     }
+    } 
+
+    .context-wrapper h2 {
+        font-size: 50px;
+    }
      
-      .input-field {
-         display: block;
-         width: 50vw;
-         margin-left: 250px;
-     }
+    .input-field {
+        display: block;
+        width: 50vw;
+        margin-left: 250px;
+    }
 
     .input-msg {
         padding-top: 10px;
     }
+
     .input-msg::placeholder {
         height: 40vh;
         font-family: Arial, sans-serif;
@@ -695,7 +704,7 @@ hr {
     .bttn {
         margin-left: 250px;
         margin-bottom: 50px;
-     }     
+    }     
  }
 
  /* responsive design for desktop */
@@ -893,13 +902,13 @@ hr {
     }        
              
     #contact-image img {
-       width: 90%;
-       padding-left: 0px;
-       padding-right: 0px;
-       text-align: center;
-       margin-left: 90px;
-       height: 450px;
-       object-fit: cover;
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        margin-left: 90px;
+        height: 450px;
+        object-fit: cover;
     }   
 
     .context-wrapper h2 {
@@ -926,3 +935,31 @@ hr {
        margin-bottom: 50px;
     }     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
