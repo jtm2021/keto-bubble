@@ -387,11 +387,12 @@ hr {
 
     .keto-question1-wrapper {
         display: block;
-        border-spacing: 20px;
+        padding: 30px;
     }
 
     .keto-question1-wrapper img {
         float: left;
+        padding-right: 30px;
     }
 
     #keto-question2 {
@@ -399,7 +400,20 @@ hr {
     }
 
     #keto-question2 h2 p{
+        float: right;                   
+    }
+
+    #keto-types {
+        display: block;
+        padding: 30px;
+    }
+    #keto-types img {
         float: right;        
+    }    
+
+    #keto-types img {
+        float: right;
+        padding-left: 200px;
     }
 }
 
