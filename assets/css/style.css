@@ -95,7 +95,7 @@ body {
     margin: 15px 15px;
 }
 
-#keto-types img {
+.keto-types img {
     width: 100%;
 }
 
@@ -109,7 +109,7 @@ body {
     margin: 15px 15px;
 }
 
-#benefitsketo-wrapper img {
+.benefitsketo-wrapper img {
     width: 100%;
 }
 
@@ -380,11 +380,6 @@ hr {
         font-size: 60px;
     }
 
-    .mainpage-img {
-        width: 50%;
-        padding: 10px 10px;        
-    }
-
     .keto-question1-wrapper {
         display: block;
         padding: 30px;
@@ -393,27 +388,86 @@ hr {
     .keto-question1-wrapper img {
         float: left;
         padding-right: 30px;
+        width: 49%;
+        height: 350px;
+        padding: 10px 10px;
     }
 
     #keto-question2 {
-        padding-left: 50px;
+        padding-left: 50px;        
     }
 
     #keto-question2 h2 p{
         float: right;                   
     }
-
-    #keto-types {
+    
+    .keto-types {
         display: block;
         padding: 30px;
     }
-    #keto-types img {
-        float: right;        
-    }    
 
-    #keto-types img {
+    .keto-types img {
         float: right;
-        padding-left: 200px;
+        padding-right: 30px;
+        width: 49%;
+        height: 350px;
+        padding: 10px 10px;        
+    }
+
+    #keto-btypes {
+        margin-top: 100px;
+    }
+
+    .benefitsketo-wrapper {
+        display: block;
+        padding: 30px;
+    }
+
+    .benefitsketo-wrapper img {
+        float: left;
+        padding-right: 30px;
+        width: 49%;
+        height: 350px;
+        padding: 10px 10px;
+    }
+
+    #benefitsketo {
+        margin-top: 100px;
+    }
+
+    #main-foodguide h2 {
+        font-size: 50px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .foodguide1 img {
+        width: 50%;
+        height: 400px;
+        object-fit: cover;
+        float: left;
+        border-radius: 30px;
+        border: 10px solid yellowgreen;
+        margin: 30px;
+    }
+
+    #foodtoeat {
+        padding-top: 120px;
+    }
+
+    .foodguide2 img {
+        width: 50%;
+        height: 400px;
+        object-fit: cover;
+        float: right;
+        border-radius: 30px;
+        border: 10px solid red;
+        margin: 30px;
+    }
+    #foodtoavoid {
+        padding-top: 220px;
+        padding-left: 50px;
     }
 }
 
+    
