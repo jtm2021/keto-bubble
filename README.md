@@ -77,6 +77,13 @@ The users of the website are provided with information about the Keto Bubble org
 ## Testing ##
 
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
+    - Firefox
+        - ![Firefox](images-readme/firefox.jpg)
+    - Microsoft Edge
+        - ![Microsoft Edge](images-readme/edge.jpg)
+    - Google Chrome
+        - ![Google Chrome](images-readme/chrome.jpg)
+
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
 - I have confirmed that the contact form works and that each input field will only accept the required details from the users and that the send message button works correctly.
@@ -88,7 +95,16 @@ The users of the website are provided with information about the Keto Bubble org
 
 ### Validator Testing ###
 - HTML - No errors were returned when passing through the official [**W3C validator**](https://validator.w3.org/#validate_by_input+with_options)
+    - Main Page
+        ![HTML Main Page](images-readme/htmlmain-validator-ss.jpg)
+    - About Page
+        ![HTML About Page](images-readme/htmlabout-validator-ss.jpg)
+    - Contact Page
+        ![HTML Contact Page](images-readme/htmlcontact-validator-ss.jpg)
+
+
 - CSS - No errors were found when passing through the official [**(Jigsaw) validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - ![CSS](images-readme/css-validator-ss.jpg)
 
 <br>
 
