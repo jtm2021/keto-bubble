@@ -350,6 +350,8 @@ hr {
 
 /* For larger screen sizes from 1200px wide and up*/
 @media screen and (min-width: 1200px) {
+    
+    /* Main page */
     h1 {
         font-size: 100px;
         padding: 20px;
@@ -435,6 +437,8 @@ hr {
         margin-top: 100px;
     }
 
+    /* food guide */
+
     #main-foodguide h2 {
         font-size: 50px;
         padding-top: 80px;
@@ -467,6 +471,29 @@ hr {
     #foodtoavoid {
         padding-top: 220px;
         padding-left: 50px;
+    }
+
+    /* about page */
+    .whole-keto-info h2 {
+        font-size: 50px;
+    }
+
+    /* contact page */
+    .context-wrapper h2 {
+        font-size: 70px;
+    }
+
+    .form-section {
+        width: 80%;
+        padding-left: 130px;
+    }
+
+    .input-field {
+        font-size: 20px;
+    }
+    
+    .bttn {
+        font-size: 20px;
     }
 }
 
