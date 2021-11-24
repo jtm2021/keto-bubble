@@ -69,11 +69,6 @@ The users of the website are provided with information about the Keto Bubble org
 
 <br>
 
-- ### Features Left to Implement ###
-    - Other features or stylings to be implemented  
-
-<br>
-
 ## Testing ##
 
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
@@ -85,6 +80,12 @@ The users of the website are provided with information about the Keto Bubble org
         - ![Google Chrome](images-readme/chrome.jpg)
 
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.
+    - Laptops
+        - ![Laptops](images-readme/responsive-for-laptops-ss.jpg)
+    - Tablets
+        - ![Tablets](images-readme/responsive-for-tablets-ss.jpg)
+    - Phones
+        - ![Phones](images-readme/responsive-for-phones-ss.jpg)
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
 - I have confirmed that the contact form works and that each input field will only accept the required details from the users and that the send message button works correctly.
 
@@ -109,7 +110,6 @@ The users of the website are provided with information about the Keto Bubble org
 <br>
 
 ## Deployment ##
-- The site was deployed to GitHub pages
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the Settings tab.
     - From the source section drop-down menu, select the main Branch.
