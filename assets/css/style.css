@@ -376,9 +376,24 @@ hr {
         font-size: 30px;
     }
 
-    .content-wrapper img{
+    .content-wrapper img {
         width: 90%; 
         padding-left: 80px;
+
+        /* animates zoom effect on loading page */
+        animation-name: keto-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    /* creates the level of zoom for keto main image */
+    @keyframes keto-zoom {
+        from {
+            transform: scale(0.85);
+        }
+        to {
+            transform: scale(1);
+        }        
     }
     
     #keto-question1 h2 {
