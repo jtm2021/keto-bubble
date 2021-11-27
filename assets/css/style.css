@@ -56,7 +56,22 @@ body {
 }
 
 .content-wrapper img{
-    width: 100%;       
+    width: 100%;
+    
+    /* animates zoom effect on loading page */
+    animation-name: keto-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for keto main image */
+@keyframes keto-zoom {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }        
 }
 
 .text-wrapper {
@@ -318,6 +333,25 @@ hr {
         letter-spacing: 5px;
         padding-top: 10px;
         font-size: 22px;
+    }
+
+    .content-wrapper img{
+        width: 100%;
+        
+        /* animates zoom effect on loading page */
+        animation-name: keto-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    /* creates the level of zoom for keto main image */
+    @keyframes keto-zoom {
+        from {
+            transform: scale(0.9);
+        }
+        to {
+            transform: scale(1);
+        }        
     }
 
     h2 {
