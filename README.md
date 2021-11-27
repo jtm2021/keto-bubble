@@ -111,9 +111,11 @@ The users of the website are provided with information about the Keto Bubble org
 
 ## Deployment ##
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - Open a web browser (like Chrome, Firefox or Edge)
+    - Login to Github and locate repositories.
     - In the GitHub repository, navigate to the Settings tab.
-    - From the source section drop-down menu, select the main Branch.
-    - Once the main branch has been selected, the page provided a link the completed website. 
+    - Go to pages tab and from the source section drop-down menu, select the main Branch and then click save button.
+    - Once the main branch has been selected and saved, the page provided a link the completed website. 
 The live link can be found here - https://jtm2021.github.io/keto-bubble/
 
 <br>
@@ -126,23 +128,22 @@ The live link can be found here - https://jtm2021.github.io/keto-bubble/
 ### Media ###
 
 - The images included in the website were taken from [Pexels.com](https://www.pexels.com/). The links are provided below:
-(https://www.pexels.com/photo/hamburger-and-fries-photo-2983101/)
-<br>
-(https://www.pexels.com/photo/salmon-dish-with-vegetables-1516415/)
-<br>
-(https://www.pexels.com/photo/man-pouring-drink-on-woman-s-glass-3184181/)
-<br>
-(https://www.pexels.com/photo/assorted-vegetable-lot-1300972/)
-<br>
-(https://www.pexels.com/photo/woman-slicing-gourd-1153369/)
-<br>
-(https://www.pexels.com/photo/photo-of-vegetables-and-fruit-on-table-4117543/)
-<br>
-(https://www.pexels.com/photo/photo-of-vegetable-salad-in-bowls-1640770/)
-<br>
-(https://www.pexels.com/photo/white-and-black-number-3-5242266/)
-<br>
-(https://www.pexels.com/photo/photo-of-sliced-cheese-on-wooden-surface-4087609/)
+    - https://www.pexels.com/photo/hamburger-and-fries-photo-2983101/
+    - https://www.pexels.com/photo/salmon-dish-with-vegetables-1516415/
+    - https://www.pexels.com/photo/man-pouring-drink-on-woman-s-glass-3184181/
+    - https://www.pexels.com/photo/assorted-vegetable-lot-1300972/
+    - https://www.pexels.com/photo/woman-slicing-gourd-1153369/
+    - https://www.pexels.com/photo/photo-of-vegetables-and-fruit-on-table-4117543/
+    - https://www.pexels.com/photo/photo-of-vegetable-salad-in-bowls-1640770/
+    - https://www.pexels.com/photo/white-and-black-number-3-5242266/
+    - https://www.pexels.com/photo/photo-of-sliced-cheese-on-wooden-surface-4087609/
+
+### Content Information ###
+
+- The site content information are sourced from various websites. See links below:
+    - https://en.wikipedia.org/wiki/Ketogenic_diet
+    - https://www.healthline.com/nutrition/clean-keto
+    - https://www.dietdoctor.com/low-carb/keto?c_source=google&c_medium=cpc&gclid=CjwKCAjwz5iMBhAEEiwAMEAwGO39PfZgHdnpMUs1EehYgTpItvdHwwnyJhr2al-O4nA8NvFublPKfxoCkmgQAvD_BwE
 
     
 

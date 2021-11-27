@@ -506,8 +506,8 @@ hr {
         height: 400px;
         object-fit: cover;
         float: left;
-        border-radius: 30px;
-        border: 10px solid yellowgreen;
+        border-radius: 30px;        
+        box-shadow: 5px 10px 18px rgb(17, 255, 17);
         margin: 30px;
     }
 
@@ -525,7 +525,7 @@ hr {
         object-fit: cover;
         float: right;
         border-radius: 30px;
-        border: 10px solid red;
+        box-shadow: 5px 10px 18px rgb(255, 0, 0);
         margin: 30px;
     }
     #foodtoavoid {
