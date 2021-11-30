@@ -72,20 +72,26 @@ The users of the website are provided with information about the Keto Bubble org
 ## Testing ##
 
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
-    - Firefox
-        - ![Firefox](images-readme/firefox.jpg)
+    - Firefox 
+    <br>
+    ![Firefox](images-readme/firefox.jpg)
     - Microsoft Edge
-        - ![Microsoft Edge](images-readme/edge.jpg)
+    <br>
+    ![Microsoft Edge](images-readme/edge.jpg)
     - Google Chrome
-        - ![Google Chrome](images-readme/chrome.jpg)
+    <br>
+    ![Google Chrome](images-readme/chrome.jpg)
 
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.
     - Laptops
-        - ![Laptops](images-readme/responsive-for-laptops-ss.jpg)
+    <br>
+    ![Laptops](images-readme/responsive-for-laptops-ss.jpg)
     - Tablets
-        - ![Tablets](images-readme/responsive-for-tablets-ss.jpg)
+    <br>
+    ![Tablets](images-readme/responsive-for-tablets-ss.jpg)
     - Phones
-        - ![Phones](images-readme/responsive-for-phones-ss.jpg)
+    <br>
+    ![Phones](images-readme/responsive-for-phones-ss.jpg)
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
 - I have confirmed that the contact form works and that each input field will only accept the required details from the users and that the send message button works correctly.
 

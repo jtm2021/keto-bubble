@@ -46,6 +46,10 @@ body {
     text-decoration: none;
 }
 
+#navlinks a:active {
+    color: gray;
+}
+
 #navlinks a:hover {
     border-bottom: 3px solid black;
 }
